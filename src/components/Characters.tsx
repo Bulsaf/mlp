@@ -27,7 +27,7 @@ function Characters() {
 
 	return (
 		<div className=" grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] w-full h-full gap-4 p-10">
-			{/* {characters?.map((character) => (
+			{characters?.map((character) => (
 				<div
 					key={character.id}
 					className=" flex flex-col items-center border-2 p-[10px] rounded-[10px] border-pony-brown"
@@ -40,7 +40,7 @@ function Characters() {
 
 					<h2>{character.name}</h2>
 				</div>
-			))} */}
+			))}
 		</div>
 	);
 }
