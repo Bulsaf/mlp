@@ -6,8 +6,7 @@
   "homepage": "https://bulsaf.github.io/mlp/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "vite start",
+    "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "dev": "vite",
     "lint": "eslint .",
